@@ -1,0 +1,5 @@
+pandapower>=2.13
+pandas
+numpy
+matplotlib
+jupyter
