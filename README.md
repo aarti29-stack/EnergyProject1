@@ -22,3 +22,8 @@ and runs a **power flow analysis** to calculate voltages, power flows, and line 
 
 3) Run
    python Project.py
+
+## Results
+
+- [Bus Results (CSV)](results/bus_results.csv)
+- [Line Results (CSV)](results/line_results.csv)
