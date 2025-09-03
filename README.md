@@ -1,7 +1,16 @@
 # Energy Network Simulations (pandapower)
 
-A tiny 3-bus low-voltage network modeled in pandapower. 
-Builds the network, runs a power flow, and prints bus and line results.
+This project demonstrates a **simple 3-bus low-voltage power system simulation** using [pandapower](https://pandapower.readthedocs.io/).  
+It models:
+- A grid connection (external grid),
+- A load (consumer bus),
+- Two transmission lines,  
+and runs a **power flow analysis** to calculate voltages, power flows, and line losses.
+
+## Project Structure
+- `Project.py` → Main Python script to build and run the simulation.
+- `requirements.txt` → Python dependencies (pandapower).
+- `README.md` → Documentation.
 
 ## How to run
 1) Create a virtual env (optional)
