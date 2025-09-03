@@ -30,3 +30,9 @@ print(net.res_bus)
 print("\n--- Line Results ---")
 print(net.res_line.iloc[:, 0:6])
 
+# save results to CSV
+net.res_bus.to_csv("results/bus_results.csv", index=False)
+net.res_line.to_csv("results/line_results.csv", index=False)
+
+print("\nResults saved to 'results' folder.")
+
